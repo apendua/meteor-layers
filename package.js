@@ -3,8 +3,9 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  
+
   api.use(['webapp']);
+  api.use(['deps', 'jquery', 'amd-manager'], 'client');
 
   api.add_files(['layers.js'], 'client');
 
