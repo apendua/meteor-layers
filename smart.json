@@ -1,0 +1,11 @@
+{
+  "name": "layers",
+  "description": "A package for atmosphere layers management",
+  "homepage": "https://github.com/apendua/meteor-layers",
+  "author": "Tomasz Lenarcik",
+  "version": "0.0.1",
+  "git": "https://github.com/apendua/meteor-layers.git",
+  "packages": {
+    "amd-manager": {}
+  }
+}
