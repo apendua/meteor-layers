@@ -1,7 +1,10 @@
+Unfortunatelly the PR this package depended on was rejected, but all described features are implemented in another package called [anti:modules](https://github.com/anticoders/meteor-modules).
+
+
 meteor-layers
 =============
 
-This is a proof-of-concept package designed to work with experimental meteor lazy loading feature.
+~~This is a proof-of-concept package designed to work with experimental meteor lazy loading feature.~~
 
 The basic idea is that everything you define under `/client/layers/` gets squashed into independent layers, which you can download on demand. For example, if your project structure looks lie:
 ```
